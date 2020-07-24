@@ -77,6 +77,31 @@
                         </div>
                     </a>
                 </li>
+
+                <li>
+                    <a href="https://github.com/Nick-Liu-1/AR-Grapher" target="_blank" class="gh_link">
+                        <div class="container">
+                            <img src="../assets/ar_grapher.jpg" alt="Virtual Projectile Motion Lab" class="project_images"/>
+
+                            <div class="overlay">
+                                <img src="../assets/github_with_background.png" alt="Github Link" class="gh_link_img">
+                            </div>
+                    
+                            <div class="hover_text">
+                                <h1>AR Grapher</h1>
+                                <p>
+                                    Hack3 first place winner. Created a 3D graphing calculator using augmented reality.
+                                </p>
+                            </div>
+
+                            <div class="gh_link_img">
+                                <img src="../assets/github_with_background.png" alt="Github Link" class="gh_link_img">
+                            </div>
+                            
+                        </div>
+                    </a>
+                </li>
+                
             </ul>
         </div>
     </div>
@@ -123,8 +148,8 @@ export default {
 
 
     .project_images {
-        width: 460px;
-        height: 290px;
+        width: 30vw;
+        height: 37vh;
     }
 
     .project_row {
@@ -148,8 +173,8 @@ export default {
         opacity: 0;
         transition: .5s ease;
         background-color: #008CBA;
-        width: 460px;
-        height: 290px;
+        width: 30vw;
+        height: 37vh;
     }
 
     .container:hover .overlay {
@@ -186,6 +211,16 @@ export default {
         right: 0;
         text-align: right !important;
         
+    }
+
+    #projects ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #projects li {
+        display: inline-block;
+        margin: 0 10px;
     }
     
 

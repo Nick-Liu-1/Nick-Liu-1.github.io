@@ -4,7 +4,7 @@
     <div id="nav">
       <ul id="menu">
         <li data-menuanchor="About" class="active"><a href="#About">About</a></li>
-        <li data-menuanchor="Skills"><a href="#Skills">Skills</a></li>
+        <li data-menuanchor="Skills"><a href="#Resume">Resume</a></li>
         <li data-menuanchor="Projects"><a href="#Projects">Projects</a></li>
     </ul>
     </div>
@@ -64,12 +64,12 @@ export default {
 </script>
 
 <style>
-    ul {
+    #nav ul {
         list-style-type: none;
         padding: 0;
     }
 
-    li {
+    #nav li {
         display: inline-block;
         margin: 0 10px;
     }

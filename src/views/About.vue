@@ -1,12 +1,12 @@
 <template>
     <div id="body">
 
-        <div id ="pfp">
+        <div id="pfp">
             <img src="../assets/pfp.jpg" alt="Profile Picture" class="pfp"  @click="alert(window.location.pathname)">
         </div>
         
         
-        <div id = "text">
+        <div id="text">
             <h1 class="name">Nick Liu</h1>
 
             <p class="intro">
@@ -47,6 +47,7 @@ export default {
 <style scoped> 
     #body {
         height: 100vh;
+        background-color: #f0ead6;
     }
 
 
@@ -119,6 +120,15 @@ export default {
         text-decoration: underline;
     }
 
+    #links ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #links li {
+        display: inline-block;
+        margin: 0 10px;
+    }
    
     
 </style>
